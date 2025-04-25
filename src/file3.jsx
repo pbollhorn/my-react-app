@@ -14,6 +14,11 @@ export function MultiWelcome() {
       <WelcomePerson person={persons[0]} />
       <WelcomePerson person={persons[1]} />
       <WelcomePerson person={persons[2]} />
+      <br />
+      <br />
+      {persons.map((p) => (
+        <WelcomePerson key={p.id} person={p} />
+      ))}
     </>
   );
 }
@@ -21,10 +26,10 @@ export function MultiWelcome() {
 export function WelcomePerson(props) {
   return (
     <>
-      <p1>
+      <p>
         Hello, {props.person.firstName} {props.person.lastName} (
         {props.person.email})
-      </p1>
+      </p>
       <br />
     </>
   );

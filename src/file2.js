@@ -10,6 +10,7 @@ export const females = ["Janne", "Sarah"];
 
 export const persons = [
   {
+    id: 0,
     firstName: "Kurt",
     lastName: "Wonnegut",
     gender: "Male",
@@ -17,6 +18,7 @@ export const persons = [
     phone: "12345",
   },
   {
+    id: 1,
     firstName: "Jane",
     lastName: "Wonnegut",
     gender: "female",
@@ -24,6 +26,7 @@ export const persons = [
     phone: "12345",
   },
   {
+    id: 2,
     firstName: "ib",
     lastName: "Wonnegut",
     gender: "Male",
