@@ -8,6 +8,8 @@ import person from "./file2";
 import { males } from "./file2";
 import { females } from "./file2";
 
+import { Welcome, MultiWelcome } from "./file3";
+
 function App() {
   const { firstName, email } = person;
 
@@ -40,6 +42,9 @@ function App() {
       <p>
         {firstName}: {email}
       </p>
+
+      <h2>Ex 3</h2>
+      <MultiWelcome />
     </>
   );
 }
